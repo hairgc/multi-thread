@@ -1,4 +1,4 @@
-package com.github.mahui53541.multithread;
+package com.github.mahui53541.multithread.t19;
 
 public class MyThread extends Thread {
 	/**
