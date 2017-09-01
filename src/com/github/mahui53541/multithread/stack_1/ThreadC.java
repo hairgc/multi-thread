@@ -5,6 +5,7 @@ public class ThreadC extends Thread {
 	public ThreadC(C c) {
 		this.c=c;
 	}
+	@Override
 	public void run() {
 		while (true) {
 			c.popService();

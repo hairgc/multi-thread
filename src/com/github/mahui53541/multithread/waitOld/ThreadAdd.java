@@ -6,6 +6,7 @@ public class ThreadAdd extends Thread {
 		this.p=p;
 	}
 	
+	@Override
 	public void run() {
 		p.add();
 	}

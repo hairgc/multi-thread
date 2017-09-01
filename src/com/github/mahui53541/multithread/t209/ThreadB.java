@@ -6,6 +6,7 @@ public class ThreadB extends Thread {
 		super();
 		this.list=list;
 	}
+	@Override
 	public void run() {
 		super.run();
 		MyService ms=new MyService();

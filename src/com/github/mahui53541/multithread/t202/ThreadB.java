@@ -6,6 +6,7 @@ public class ThreadB extends Thread {
 		super();
 		this.numSelf=numSelf;
 	}
+	@Override
 	public void run() {
 		super.run();
 		numSelf.addI("b");

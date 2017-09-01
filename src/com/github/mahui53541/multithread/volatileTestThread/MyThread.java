@@ -15,6 +15,7 @@ public class MyThread extends Thread {
 		}
 		System.out.println("count="+count);
 	}
+	@Override
 	public void run() {
 		addCount();
 	}

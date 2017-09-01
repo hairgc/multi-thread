@@ -62,6 +62,7 @@ public class MyThread extends Thread {
 	/**
 	 * 终止线程沉睡
 	 */
+	@Override
 	public void run() {
 		try {
 			super.run();

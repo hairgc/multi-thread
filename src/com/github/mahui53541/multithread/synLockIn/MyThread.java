@@ -1,6 +1,7 @@
 package com.github.mahui53541.multithread.synLockIn;
 
 public class MyThread extends Thread {
+	@Override
 	public void run() {
 		Service s=new Service();
 		s.service1();

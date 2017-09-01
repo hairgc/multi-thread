@@ -5,6 +5,7 @@ public class MyThread extends Thread {
 	 * 守护线程
 	 */
 	private int i=0;
+	@Override
 	public void run() {
 		try {
 			while(true) {

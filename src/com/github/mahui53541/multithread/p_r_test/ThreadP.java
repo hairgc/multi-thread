@@ -6,6 +6,7 @@ public class ThreadP extends Thread {
 		this.p=p;
 	}
 	
+	@Override
 	public void run() {
 		while(true) {
 			p.setValue();

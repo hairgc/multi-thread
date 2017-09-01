@@ -1,6 +1,7 @@
 package com.github.mahui53541.multithread.jointest1;
 
 public class MyThread extends Thread {
+	@Override
 	public void run() {
 		try {
 			int secondValue=(int)(Math.random()*10000);

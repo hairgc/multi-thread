@@ -6,6 +6,7 @@ public class ThreadSubtract extends Thread {
 		this.r=r;
 	}
 	
+	@Override
 	public void run() {
 		r.substract();
 	}

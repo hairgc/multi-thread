@@ -6,6 +6,7 @@ public class ThreadA extends Thread {
 		super();
 		this.lock=lock;
 	}
+	@Override
 	public void run() {
 		try {
 			synchronized (lock) {

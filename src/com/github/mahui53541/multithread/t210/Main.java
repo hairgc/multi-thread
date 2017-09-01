@@ -1,6 +1,5 @@
 package com.github.mahui53541.multithread.t210;
 
-import java.lang.reflect.Array;
 import java.util.Scanner;
 
 public class Main {
